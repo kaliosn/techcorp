@@ -1,0 +1,25 @@
+
+/* import police */
+
+@import url('https://fonts.cdnfonts.com/css/minguwest');
+
+@import url('https://fonts.cdnfonts.com/css/borisna');
+
+.fontming {
+    font-family: 'Minguwest', sans-serif;
+}
+
+
+/* logo */
+.logstyle {
+    font-family: 'Borisna', sans-serif;
+    font-size: 3rem;
+}
+
+#search-block {
+    padding: 1rem;
+}
+
+.mycontent {
+    padding: 0.5rem;
+}
