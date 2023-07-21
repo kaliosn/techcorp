@@ -17,8 +17,22 @@
             e.preventDefault()
             console.log("Submit")
             console.log(word.val().length)
-            let txt = $("<p></p>").text("Vous recherchez << " + word.val() + " >>, votre recherche est en cours.");            
+            
+            /*
+            if (
+                $("p").hasClass("intro")
+            ) {
+                console.log("ca contient")
+            }  else {
+                console.log("no contains")
+            }
+                
+            */
+
+            $("p").remove()
+            let txt = $("<p></p>").text("Vous recherchez << " + word.val() + " >>, votre recherche est en cours."); 
             $(".mycontent").append(txt)
+            
         }
 
         // the submit button disable
